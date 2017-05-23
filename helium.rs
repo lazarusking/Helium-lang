@@ -52,7 +52,7 @@ fn main() {
             loop {
             	//Print if true
             	if TABLE[x] == val {
-            	   println!("{}", val)!
+            	   println!("{}", val);
                 }
                 
                 x += 1;
