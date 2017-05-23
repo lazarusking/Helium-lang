@@ -136,7 +136,7 @@ fn main() {
 /*
 
    DATA-BASE/COMPUTING HELIUM v.0.9
-   Coder: Brylle(Z34O) @ VoltzEx
+   Coder: Brylle(MrCoder) @ VoltzEx
    
    Structure:
    
