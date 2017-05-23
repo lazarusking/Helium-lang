@@ -15,11 +15,11 @@ fn fact(n: i32) -> i32 {
 
 fn main() {
    //Keywords to be used
-   kw = ["find", "unique", "--","", "delete_value", "printall", "writeln", "create_table", "add_value", "print_value"]
+   kw = ["find", "unique", "--","", "delete_value", "printall", "writeln", "create_table", "add_value", "print_value"];
    
    //Parameter
    let start = ln.find('[').unwrap();
-   let end = ln.find(']').unwrap();;
+   let end = ln.find(']').unwrap();
    
    println!("::Helium v.0.1 Running::");
    print!("Run File: ");
@@ -125,8 +125,8 @@ fn main() {
         } else {
         	//Panic and stop if error
         	panic!("No Commands Found");
-            panic!("Program Completed with Errors");
-            unreachable!();
+                panic!("Program Completed with Errors");
+                unreachable!();
         }
     }
     println!("\nProgram Succesfully Completed");
@@ -135,7 +135,7 @@ fn main() {
 /*
 
    DATA-BASE/COMPUTING HELIUM v.0.8
-   Coder: Brylle @ VoltzEx
+   Coder: Brylle(Z34O) @ VoltzEx
    
    Structure:
    
