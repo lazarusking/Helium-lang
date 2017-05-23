@@ -21,7 +21,7 @@ fn main() {
    let start = ln.find('[').unwrap();
    let end = ln.find(']').unwrap();
    
-   println!("::Helium v.0.1 Running::");
+   println!("::Helium v.0.9 Running::");
    print!("Run File: ");
    
    //User input for file
@@ -135,7 +135,7 @@ fn main() {
 
 /*
 
-   DATA-BASE/COMPUTING HELIUM v.0.8
+   DATA-BASE/COMPUTING HELIUM v.0.9
    Coder: Brylle(Z34O) @ VoltzEx
    
    Structure:
