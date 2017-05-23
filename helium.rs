@@ -32,7 +32,8 @@ fn main() {
    
    //Another check if extension is .he
    if !file.contains(".he") {
-   	panic!("Fatal Error: File extension does not end with .he");
+   	panic!("Fatal Error: File extension does not end with .he\n\nProgram Completed with Errors");
+	unreachable!();
    }
    
    //BufReading...
@@ -82,7 +83,7 @@ fn main() {
           //Loop checking if duplicates are found
           	loop {
           	   let mut ano = TABLE.find(TABLE[count]);
-                 let mut aa = TABLE[ano];
+                   let mut aa = TABLE[ano];
           	   if TABLE[count] == aa {
           	      TABLE.remove(ano);
                  }
