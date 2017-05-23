@@ -114,13 +114,13 @@ fn main() {
             let s = expr.find('[').unwrap();
             let e = expr.find(']').unwrap();
             if expr.contains("to_negative") {
-                let num: i32 = expr[s+1..e-1].parse().unwrap();
+                let num: i32 = &expr[s+1..e-1].parse().unwrap();
                 println!("{}" (num*2)-num);
             } else if expr.contains("absolute") {
-                let num2: i32 = expr[s+1..e-1].parse().unwrap();
+                let num2: i32 = &expr[s+1..e-1].parse().unwrap();
                 println!("{}", (num2+num2)+num2);
             } else if expr.contains('factorial') {
-            	let num3: i32 = expr[s+1..end-1].parse().unwrap();
+            	let num3: i32 = &expr[s+1..end-1].parse().unwrap();
                 println!("{}", fact(num3));
             }
         } else {
